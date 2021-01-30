@@ -1,0 +1,4 @@
+.font-bold {font-weight: bold;} 
+.fs-16 {font-size: 16px;}
+.resultContent {padding: 10px; border:1px solid #ccc; margin-top: 15px;display: flex; justify-content: space-around; flex-wrap: wrap;}
+.catsImg {width: 150px; height: 150px; box-shadow: 2px 12px 26px rgba(0,0,0,0.4); margin: 10px;}
