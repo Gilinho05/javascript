@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div>
+            <h1 id="welcome"></h1>
+            <h2 id="titulo"></h2>
+            
+            <p id="descricao"></p>
+            <p id="sometext"></p>
+        </div>
+
+        <div id="fruta"></div>
+
+    <script>
+        let students = [
+            {
+                "name": "Gil",
+                "age": 31,
+                "height": 184
+            },
+            {
+                "name": "Miguel",
+                "age": 35,
+                "height": 179
+            }
+        ]
+        console.log('students >', students[0].age);
+
+        let students2 = `[
+            {
+                "name": "Gil",
+                "age": 31,
+                "height": 184
+            },
+            {
+                "name": "Miguel",
+                "age": 35,
+                "height": 179
+            }
+        ]`
+        console.log('students 2 >', JSON.parse(students2)[0].age);
+    </script>
+
+    <script src="yourAgeInDays.js"></script>
+</body>
+</html>
