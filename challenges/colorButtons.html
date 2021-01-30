@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/colorButtons.css">
+    <title>CHALLENGES</title>
+</head>
+<body>
+    <!--  TOTURIAL VERSION  -->
+    <div class="container text-center">
+        <div>
+            <h1>Challange: Change Color of All Buttons</h1>
+        </div>
+        <div class="buttonsContent">
+            <form action="">
+                <select class="form-control" name="backdrop" id="pickColor" onchange="fButtonColorChange(this)">
+                    <option value="random">random</option>
+                    <option value="blue">Blue</option>
+                    <option value="red">red</option>
+                    <option value="green">green</option>
+                    <option value="reset">reset</option>
+                </select>
+            </form>
+            <button class="btn btn-warning">wee!</button>
+            <button class="btn btn-success">linkedin!</button>
+            <button class="btn btn-primary">facebook!</button>
+            <button class="btn btn-danger">instagram!</button>
+        </div>
+    </div>
+    <!--  MY VERSION  -->
+    <!--<div class="container text-center">
+        <div>
+            <h1>Challange: Change Color of All Buttons</h1>
+        </div>
+        <div class="buttonsContent">
+            <select id="pickColor" onchange="fColorChosen(this)">
+                <option value="0">Blue</option>
+                <option value="1">red</option>
+                <option value="2">green</option>
+            </select>
+            <button class="btn btn-warning">wee!</button>
+            <button class="btn btn-info">linkedin!</button>
+            <button class="btn btn-primary">facebook!</button>
+            <button class="btn btn-danger">instagram!</button>
+        </div>
+    </div>-->
+
+    <script src="js/colorButtonsMyVersion.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body{background-color: #eee;}
+
+.buttonsContent{
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.red, .red:hover {
+    background-color:red;
+    border-color: red;
+}
+.blue, .blue:hover {
+    background-color:blue;
+    border-color: blue;
+}
+.green, .green:hover {
+    background-color:green;
+    border-color: green;
+}

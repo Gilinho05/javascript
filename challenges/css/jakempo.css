@@ -1,0 +1,29 @@
+body {
+    background-color: #eee;
+}
+
+.title {
+    color: #fff;
+    text-shadow: #000 0px 0px 1px, blue 2px 2px 1px, orange -2px -2px 1px, #000 0px 0px 15px;
+}
+
+.menuGame{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.buttonsChoice, .contentChoices {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.buttonsChoice img, .playerImgChosen, .computerImgChosen{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,.4);
+}

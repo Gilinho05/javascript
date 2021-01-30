@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jakempo.css">
+    <title>JAKEMPO GAME</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menuGame">
+            <h1 class="title">JAKEMPO GAME</h1>
+            <button class="btn btn-danger">new game</button>
+        </div>
+        <div class="buttonsChoice">
+            <img id="pedra" class="btn btn-primary" src="img/rock.jpg" onclick="fJakempoGame(this)">
+            <img id="papel" class="btn btn-warning" src="img/paper.jpg" onclick="fJakempoGame(this)">
+            <img id="tesoura" class="btn btn-dark" src="img/scissor.jpg" onclick="fJakempoGame(this)">
+        </div>
+        <div id="resultChoices" class="contentChoices"></div>
+    </div>
+    <script src="js/jakempoGame.js"></script>
+</body>
+</html>

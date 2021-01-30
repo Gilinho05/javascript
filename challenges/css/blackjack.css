@@ -1,0 +1,39 @@
+body{
+    background-color: #eee;
+}
+
+.content, .scoreContent, .gameContent, .buttonsContent{
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 23px rgba(0, 0, 0, 0.3);
+}
+
+.gameContent{
+    display: flex;
+    background-image: url('/challenges/img/blackjack_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    padding: 0;
+}
+.gameContent .playerContent, .gameContent .computerContent{
+    color:#fff;
+    text-align: center;
+    border: 2px solid #FFF;
+    padding: 20px;
+    flex: 1;
+    margin: 10px;
+    min-height: 300px;
+}
+
+.table{border-width: 2px;margin-bottom: 0;}
+.table, .table tr td,.table thead tr th {
+    border-color: green;
+}
+
+.cards {
+    background-color: #fff;
+    height: 100px;
+    margin: 10px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/blackjack.css">
+    <title>CHALLENGES : BlackJack</title>
+</head>
+<body>
+
+    <div class="container text-center">
+        <div class="content text-center">
+            <h1>Challange: BlackJack</h1>
+            <p id="subtitleContent">Let's play!</p>
+        </div>
+        <div class="scoreContent">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Wins</td>
+                        <th>Draws</td>
+                        <th>Loses</td>
+                    </tr>
+                </thead>
+                <tr>
+                    <td><span id="winScore">0</span></td>
+                    <td><span id="drawScore">0</span></td>
+                    <td><span id="loseScore">0</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="gameContent">
+            <div class="playerContent">
+                <div><h2>Your Score: <span id="playerResult">0</span></h2></div>
+                <div id="playerBox"></div>
+            </div>
+            <div class="computerContent">                
+                <div><h2>Dealer Score:  <span id="dealerResult">0</span></h2></div>
+                <div id="dealerBox"></div>
+            </div>            
+        </div>
+        <div class="buttonsContent">
+            <button class="btn btn-success" id="hitButton">Hit</button>
+            <button class="btn btn-warning" id="standButton">Stand</button>
+            <button class="btn btn-danger" id="dealButton">Deal</button>
+        </div>
+    </div>
+    <script src="js/blackjackTESTE.js"></script>
+</body>
+</html>
